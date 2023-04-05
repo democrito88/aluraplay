@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Alura\\Mvc\\" : "src/"
+        }
+    },
+    
+    "require": {
+        "doctrine/orm": "*",
+        "symfony/cache": "*",
+        "doctrine/annotations": "^2.0",
+        "league/plates": "^3.5",
+        "php-di/php-di": "^7.0"
+    }
+}
